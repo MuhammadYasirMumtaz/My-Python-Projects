@@ -1,3 +1,3 @@
-Name = "Yasir"
-Age = 20
-print ("Name is :", Name, "Age :", Age)
+a = int(input("Enter any number:"))
+b = int(input("Enter any number:"))
+print(float(a%b))
