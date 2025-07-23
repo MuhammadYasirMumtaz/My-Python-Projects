@@ -1,3 +1,6 @@
-a = int(input("Enter any number:"))
-b = int(input("Enter any number:"))
-print(float(a%b))
+a = int(input("Enter Something:"))
+b=int(5)
+if (a%b == 0):
+    print("Yes")
+else:
+    print("NO")
