@@ -1,7 +1,5 @@
 a = int(input("Enter Something:"))
-if (a>0):
-    print("Number is positive")
-elif(a<0):
-    print("Number is negative")
+if (a>=18):
+    print("Eligible to Vote")
 else:
-    print("Number is Zero")
+    print("Not Eligible to vote")
