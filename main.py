@@ -1,5 +1,7 @@
 a = int(input("Enter Something:"))
-if (a%2 == 0):
-    print("Even")
+if (a>0):
+    print("Number is positive")
+elif(a<0):
+    print("Number is negative")
 else:
-    print("Odd")
+    print("Number is Zero")
