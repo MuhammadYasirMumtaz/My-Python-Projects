@@ -1,5 +1,8 @@
 a = int(input("Enter Something:"))
-if (a>=18):
-    print("Eligible to Vote")
+b = int(input("Enter Something:"))
+if (a>b):
+    print("a is greater")
+elif(a<b):
+    print("b is greater")
 else:
-    print("Not Eligible to vote")
+    print("both are equal")
