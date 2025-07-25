@@ -1,10 +1,14 @@
-def MultiNum(x,y):
-    pass
+x = 30
 
-x = int(input("Enter a Number: "))
-y = int(input("Enter a Number: "))
+def Modify_global():
+    global x
+    x = 20
+    print (x)
 
-result = MultiNum(x,y)
-print("The result of Multiplication is: ", result)
+    z= 10
+    print (z)
+
+Modify_global()
+
 
 
