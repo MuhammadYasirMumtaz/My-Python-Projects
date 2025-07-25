@@ -1,14 +1,11 @@
-x = 30
+def average_of_numbers(numbers):
+    return sum(numbers) / len(numbers) 
 
-def Modify_global():
-    global x
-    x = 20
-    print (x)
 
-    z= 10
-    print (z)
+numbers_list = [1, 2, 3, 4, 5]
+result = average_of_numbers(numbers_list)
+print("Average of numbers in the list:", result)
 
-Modify_global()
 
 
 
