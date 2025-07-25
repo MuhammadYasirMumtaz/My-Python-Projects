@@ -1,13 +1,10 @@
-def EvenOdd(x):
-    if x%2 == 0:
-        return "Even" 
-    else:
-        return "Odd"
+def MultiNum(x,y):
+    pass
 
 x = int(input("Enter a Number: "))
+y = int(input("Enter a Number: "))
 
-result = EvenOdd(x)
-print("The Give Number", x , "is", result)
-    
+result = MultiNum(x,y)
+print("The result of Multiplication is: ", result)
 
 
