@@ -1,9 +1,10 @@
-n = int(input("Enter a number: "))
-fact = 1
+def AddNum(x,y):
+    return x + y
 
-for i in range(1, n + 1):
-    fact *= i
+x = int(input("Enter a Number: "))
+y = int(input("Enter a Number: "))
 
-print("Factorial of", n, "is", fact)
+result = AddNum(x,y)
+print("The result of Addition is: ", result)
 
 
