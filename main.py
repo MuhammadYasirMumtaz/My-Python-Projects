@@ -1,10 +1,13 @@
-def AddNum(x,y):
-    return x + y
+def EvenOdd(x):
+    if x%2 == 0:
+        return "Even" 
+    else:
+        return "Odd"
 
 x = int(input("Enter a Number: "))
-y = int(input("Enter a Number: "))
 
-result = AddNum(x,y)
-print("The result of Addition is: ", result)
+result = EvenOdd(x)
+print("The Give Number", x , "is", result)
+    
 
 
