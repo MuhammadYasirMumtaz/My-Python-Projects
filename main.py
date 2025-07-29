@@ -1,7 +1,6 @@
-lst = [(1,3),(2,2),(4,1)]
+lst = [1,2,3,4,6,7,9,5,0]
 
-double = list(map(lambda x:x*2,lst))
-print("The double of list is",double)
-
+Even = list(filter(lambda x : x%2 == 0,lst))
+print("The Even List is:",Even)
     
 
