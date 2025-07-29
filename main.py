@@ -1,10 +1,8 @@
-def fact(n):
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return n*fact(n-1)
+def test_args_kwargs(*args, **kwargs):
+    print("The positional parameters are: ",args)
+    print("The keyword parameters are: ",kwargs)
+
+test_args_kwargs(1, 2, 3, a=4, b=5)
+
     
-print("The factorial is",fact(5))
 
