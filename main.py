@@ -1,8 +1,7 @@
-def test_args_kwargs(*args, **kwargs):
-    print("The positional parameters are: ",args)
-    print("The keyword parameters are: ",kwargs)
+lst = [(1,3),(2,2),(4,1)]
 
-test_args_kwargs(1, 2, 3, a=4, b=5)
+sort = sorted(lst,key=lambda x: x[1])
+print("The sorted list is",sort)
 
     
 
