@@ -1,9 +1,9 @@
-lst = [1, 2, 3, 4, 5, 6]
+lst1 = ['a', 'b', 'c']
+lst2 = [10, 20, 30]
+d = {}
 
+for i in range(len(lst1)):
+    for j in range(len(lst2)):
+        d[lst1[i]] = lst2[j] 
 
-for x in lst[:]:
-    if x % 2 == 0:
-        lst.remove(x) 
-        print(f"Removed {x}, current list: {lst}")
-    else:
-        print(f"Odd number {x}, current list: {lst}")
+print(d)
